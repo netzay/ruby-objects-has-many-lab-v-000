@@ -14,7 +14,7 @@ class Post
       return author.name
     end
     if !post.name
-       nil
+      return nil
     end
   end
 end
