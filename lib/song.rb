@@ -10,10 +10,9 @@ class Song
   end
   
   def artist_name
-    if author == self.author
-      return author.name
-    end
-    if !post.author
+    if self.artist 
+      return aritist.name
+    else
       return nil
     end
   end
