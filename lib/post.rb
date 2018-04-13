@@ -13,7 +13,7 @@ class Post
     if author == self.author
       return author.name
     end
-    if !author
+    if !author.name
       return nil
     end
   end
