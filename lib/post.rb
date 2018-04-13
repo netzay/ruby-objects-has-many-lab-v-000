@@ -9,11 +9,11 @@ class Post
     self.posts.name
   end
   
-  # def author_name
-  #   if post.author
-  #     return author.name
-  #   else
-  #     return nil
-  #   end
-  # end
+  def author_name
+    if post.author
+      return author.name
+    else
+      return nil
+    end
+  end
 end
